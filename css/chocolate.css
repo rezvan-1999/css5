@@ -9,12 +9,13 @@
 
 img {
   width: 100vw;
-  height: 85vh;
+  height: 50em;
   position: absolute;
 }
 
 body {
   background-color: burlywood;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -43,7 +44,7 @@ body {
   min-height: 400px;
   position: relative;
   padding: 35px;
-  margin-top: 90vh;
+  margin-top: 50em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -54,6 +55,11 @@ body {
 }
 
 .sail {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .box {
@@ -82,4 +88,35 @@ body {
 .sa {
   margin-left: 75px;
   font-weight: bold;
+}
+
+.end {
+  width: 100vw;
+  height: 400px;
+  background-color: rgb(143, 26, 26);
+  position: relative;
+}
+
+.enjoy {
+  font-weight: bold;
+  font-size: x-large;
+  position: absolute;
+  margin: 100px;
+}
+
+.form {
+  position: absolute;
+  margin: 200px;
+}
+
+.spara {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.bu {
+  font-weight: bold;
+  background-color: rgba(255, 68, 0, 0.753);
+  padding: 5px;
+  border: 1px solid orange;
 }
