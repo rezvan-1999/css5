@@ -56,10 +56,117 @@
   margin-left: 60em;
 }
 
-.search::after{
+.search::after {
   content: "🔍";
   /* width: 40px;
   height: 40px;
   background-color: blue;
   border-radius: 9px; */
+}
+
+.container {
+}
+
+.cloths1 {
+  width: 500px;
+  height: 650px;
+  border: 3px solid lightskyblue;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+
+.gym1 {
+  width: 400px;
+  height: 550px;
+  border-radius: 8px;
+}
+
+.cloths2 {
+  width: 500px;
+  height: 650px;
+  border: 3px solid lightskyblue;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+
+.gym2 {
+  width: 400px;
+  height: 550px;
+  border-radius: 8px;
+}
+
+.cloths3 {
+  width: 700px;
+  height: 750px;
+  border: 3px solid lightskyblue;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+
+.gym3 {
+  width: 600px;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.cloths4 {
+  width: 600px;
+  height: 650px;
+  border: 3px solid lightskyblue;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+
+.gym4 {
+  width: 400px;
+  height: 550px;
+  border-radius: 8px;
+}
+
+.cloths5 {
+  width: 600px;
+  height: 650px;
+  border: 3px solid lightskyblue;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+
+.gym5 {
+  width: 400px;
+  height: 550px;
+  border-radius: 8px;
+}
+
+.cloths6 {
+  width: 500px;
+  height: 450px;
+  border: 3px solid lightskyblue;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+
+.gym6 {
+  width: 400px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.cloths7 {
+  width: 600px;
+  height: 650px;
+  border: 3px solid lightskyblue;
+  border-radius: 15px;
+  background-color: lightblue;
+}
+
+.gym7 {
+  width: 400px;
+  height: 550px;
+  border-radius: 8px;
+}
+
+.name {
+}
+
+.info {
 }
