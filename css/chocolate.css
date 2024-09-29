@@ -31,3 +31,18 @@ body {
   color: orangered;
   display: flex;
 }
+
+.text {
+  border: 2px solid orange;
+  border-radius: 5px;
+  min-width: 50px;
+  min-height: 400px;
+  position: relative;
+  padding: 35px;
+  margin-top: 90vh;
+}
+
+.para {
+  font-size: large;
+  line-height: 35px;
+}
