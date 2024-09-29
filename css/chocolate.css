@@ -120,7 +120,15 @@ body {
 
 .bu {
   font-weight: bold;
-  background-color: rgba(255, 68, 0, 0.753);
+  background-color: rgba(230, 28, 28, 0.753);
   padding: 5px;
-  border: 1px solid rgb(255, 72, 0);
+  border: 1px solid rgb(238, 57, 57);
+  font-size: large;
+}
+
+.inp {
+  font-weight: bold;
+  font-size: large;
+  background-color: rgba(82, 19, 19, 0.753);
+  border: 3px solid rgb(173, 12, 12);
 }
