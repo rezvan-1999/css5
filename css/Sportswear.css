@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 999;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  background: rgb(12, 6, 115);
+  background: radial-gradient(
+    circle,
+    rgba(12, 6, 115, 1) 12%,
+    rgba(9, 9, 181, 1) 30%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.sail {
+  border: 3px solid rgb(243, 246, 247);
+  border-radius: 9px;
+  background-color: rgb(5, 97, 139);
+  width: 60px;
+  height: 40px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.in {
+  border: 3px solid rgb(252, 252, 255);
+  border-radius: 9px;
+  background-color: rgb(5, 97, 139);
+  width: 90px;
+  height: 40px;
+  font-size: large;
+  color: white;
+  position: relative;
+  margin-left: 25px;
+}
+
+.search {
+  border: 3px solid blue;
+  width: 400px;
+  height: 40px;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 9px;
+  position: relative;
+  margin-left: 60em;
+}
+
+.search::after{
+  content: "🔍";
+  /* width: 40px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 9px; */
+}
