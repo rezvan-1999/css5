@@ -233,7 +233,19 @@
 }
 
 .name2 {
+  font-size: large;
+  font-weight: bold;
+  transform: scale(1.5);
+  display: flex;
+  margin-left: 9em;
+  margin-top: 1em;
 }
 
 .info2 {
+  font-size: large;
+  font-weight: bold;
+  transform: scale(1.25);
+  display: flex;
+  margin-left: 20em;
+  margin-top: -1em;
 }
