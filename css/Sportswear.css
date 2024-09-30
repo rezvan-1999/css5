@@ -17,7 +17,7 @@ body {
   top: 0;
   display: flex;
   z-index: 999;
-  align-items: center;
+  /* align-items: center; */
   width: 100vw;
   height: 60px;
   background: rgb(12, 6, 115);
@@ -28,6 +28,40 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
 }
+
+.no {
+  display: none;
+}
+
+.test {
+  list-style-type: none;
+}
+
+.test:hover > ul {
+  display: block;
+}
+
+.new {
+  width: 200px;
+  height: 40px;
+  position: relative;
+  padding: 5px;
+  margin-left: 10em;
+  margin-top: 10px;
+}
+
+.go {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.a {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
 .sail {
   border: 3px solid rgb(243, 246, 247);
   border-radius: 9px;
@@ -35,6 +69,7 @@ body {
   width: 60px;
   height: 40px;
   position: relative;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
@@ -47,6 +82,7 @@ body {
   font-size: large;
   color: white;
   position: relative;
+  margin-top: 10px;
   margin-left: 25px;
 }
 
@@ -58,7 +94,8 @@ body {
   font-size: large;
   border-radius: 9px;
   position: relative;
-  margin-left: 60em;
+  margin-top: 10px;
+  margin-left: 40em;
 }
 
 .search::after {
