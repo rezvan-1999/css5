@@ -141,6 +141,24 @@
   margin-top: 20px;
 }
 
+.name4 {
+  font-size: large;
+  font-weight: bold;
+  transform: scale(1.5);
+  display: flex;
+  margin-left: 10em;
+  margin-top: 1em;
+}
+
+.info4 {
+  font-size: large;
+  font-weight: bold;
+  transform: scale(1.25);
+  display: flex;
+  margin-left: 30em;
+  margin-top: 3em;
+}
+
 .cloths4 {
   width: 600px;
   height: 650px;
