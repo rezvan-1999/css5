@@ -23,3 +23,23 @@
   font-weight: bold;
   color: chocolate;
 }
+
+.box {
+  width: 900px;
+  min-height: 400px;
+  border: 3px solid;
+  border-radius: 15px;
+  margin-left: 400px;
+  padding: 40px;
+}
+
+.para {
+  line-height: 2;
+  font-size: large;
+  margin-left: 40px;
+}
+
+.bpara {
+  line-height: 2;
+  font-size: large;
+}
