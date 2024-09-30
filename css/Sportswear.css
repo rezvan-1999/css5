@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Fredoka", sans-serif;
+  /* overflow-x: hidden; */
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -266,4 +271,39 @@
   display: flex;
   margin-left: 20em;
   margin-top: -1em;
+}
+
+.gra {
+  width: 100vw;
+  height: 30em;
+  background: rgb(12, 6, 115);
+  background: radial-gradient(
+    circle,
+    rgba(12, 6, 115, 1) 12%,
+    rgba(9, 9, 181, 1) 30%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+}
+
+.us {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  transform: scale(2);
+  justify-content: center;
+  margin: 5em;
+}
+
+.border {
+  border-right: 5px solid rgb(252, 252, 252);
+  height: 450px;
+  margin-top: 20px;
+}
+
+.t {
+  font-weight: bold;
+  transform: scale(1.5);
+  margin-top: 4em;
+  margin-left: 7em;
 }
